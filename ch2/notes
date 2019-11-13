@@ -1,0 +1,24 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    notes                                              :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/12 20:13:47 by yinzhang          #+#    #+#              #
+#    Updated: 2019/11/12 20:13:48 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+This Chapter is about arrays vs linked lists and selection sort.
+
+            ARRAY       LIST
+Read        O(1)        O(n)
+Insert      O(n)         O(1)
+Delete      O(n)         O(1)
+
+Inserting to middle of list is better than array because you don't need to reshift everything else
+
+Rand Access vs Sequential Access
+- Arrays have Random Access, because you can jump to anypoint you want from the head
+- Lists are sequential access, because you need to go through nodes to get to where you want

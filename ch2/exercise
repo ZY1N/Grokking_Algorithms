@@ -1,0 +1,33 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    exercise                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/12 20:13:39 by yinzhang          #+#    #+#              #
+#    Updated: 2019/11/12 20:13:42 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Exercise:
+
+2.1
+    You should use a linked list because you don't know how many spots you need. The inserts are o(1) time and reads are o(1).
+    It would be faster than the array with o(n) insert time and o(1) reading time because you insert more than you read.
+
+2.2
+    You would use an linked list here because you are only adding in orders and taking it off, both which are O(1) for linkedlist.
+
+2.3
+    You need an array for the random access ability. You can't perform a binary seaerch on a linked list.
+
+2.4
+    The downside to using arrays to store users is that insertion and deletions are expensive o(n), and sometimes you need to find a new place to make a bigger list.
+    Also since its alphabetical you need to displace a lot of the array everytime you insert or delete someone.
+
+2.5
+    The hybrid array/list structure would be faster than arrays at inserting and slower than arrays using binary search but faster than linear search.
+    Compared to lists its faster for insertion and faster to search if you wanted it alphabetical.
+
+    otherwise its slower than arrays at search and faster than lists at everythin else

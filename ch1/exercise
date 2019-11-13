@@ -1,0 +1,32 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    exercise                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/12 14:53:38 by yinzhang          #+#    #+#              #
+#    Updated: 2019/11/12 14:53:42 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+1.1
+    log2N
+    log2 128 = 7
+
+1.2
+    log2 256 = 8
+
+1.3
+    Use binary search and find the persons name and then their number
+    O(log n)
+
+1.4
+    User linear search to find the phone number and give their name
+    O(n)
+
+1.5
+    O(n)
+
+1.6
+    o(n)
