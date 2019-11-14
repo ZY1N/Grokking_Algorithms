@@ -10,4 +10,18 @@
 #                                                                              #
 # **************************************************************************** #
 
+Recursion is a different way to loop through something. It calls upon itself.
+    -Recursion has 2 parts
+        -Base case : where it returns a value
+        -Recursive case : where it calls itself
+    -must have both
 
+Stacks
+    -are data structurs that the system uses to execute programs
+    -it has 2 operations:
+        - push: puts a call onto the top of the pile
+        - pop: takes a call off the current pile
+
+Downsides
+    - it can get very expensive memorywise to have recursion sometimes, and you may need to use a loop
+    - another way is a tail recursion

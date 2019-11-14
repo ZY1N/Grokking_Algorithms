@@ -10,4 +10,10 @@
 #                                                                              #
 # **************************************************************************** #
 
+3.1
+1. the function takes a name variable set to maggie
+2. it calls greet 2 which also takes a name variable that is set to maggie
+
+3.2
+The stack continues to grow until there isnt memeory left and computer crashes
 
