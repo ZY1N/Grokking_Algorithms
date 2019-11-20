@@ -1,0 +1,50 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    exercises                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/13 20:34:20 by yinzhang          #+#    #+#              #
+#    Updated: 2019/11/13 21:33:19 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+4.1
+def sum(list):
+	if(len(list) < 1):
+		return 0
+	else:
+		return(list.pop(0) + sum(list))
+
+without functions
+
+def sum(list):
+	if(list == []): #this notion is to check if theres nothing in the list
+		return 0
+	return(list[0] + sum(list[1:])) #the list notation returns everythin except the first element
+
+#different ways to check for empty lists
+	#using not to turn it into a boolean expression
+	#using len()
+
+#ways not to do it
+	#dont == None because None is a value and there isnt implicit conversion
+	#None is not equal to false: there are other things considered false than none
+	#Also, beware of writing "if x" when you really mean "if x is not None" beacause x might be an int with -1
+
+#there is a difference between is and ==
+	#is checks to see if they are same object
+	#== checks to see if they are equivilent
+
+4.2
+def countlist(list):
+	if(list == []):
+		return 1
+	else:
+		return 1 + countlist(list[1:])
+
+4.3
+
+4.4
+
