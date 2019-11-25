@@ -6,7 +6,8 @@ def max(list):
             list.pop(1)
         else:
             list.pop(0)
-        return max(list)
+        x = max(list)
+        return x
 
 ary = [1,2,3,4]
 x = max(ary)
