@@ -10,9 +10,28 @@
 #                                                                              #
 # **************************************************************************** #
 
+topological sort
+    make list out of graph
+
 6.1
 Shortest path length is 2
 
 6.2
 Shortest path length is 2
 
+6.3
+A isnt valid. eat breakfast requires brush teeth
+B is valid
+C isnt valid because you need to wake up before shower
+
+6.4
+2. exercises
+1. wake up
+3. brush teeth
+4. pack lunch
+5. shower
+6. eat breakfast
+7. get dressed
+
+6.5
+a and c are trees
