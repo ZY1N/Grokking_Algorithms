@@ -1,0 +1,25 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    notes                                              :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/27 14:18:35 by yinzhang          #+#    #+#              #
+#    Updated: 2019/11/27 18:19:12 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Dijkstara's algorithm
+
+1. find the cheapest node to get to
+2. using the cheapest node calculate how long it takes to get to neighbors by following an edge(update the costs)
+3. do it for the next node again until you have it for everything
+4. find the final path
+
+Dijkstra's algorithm only works with DAGs, directed acyclic graphs
+	- it means basically no point at each other, no cycles
+	- doesn't work with negative weights, because as soon as it processes for one node it assumes that there is no way to get to it faster, which only works under the assumption of no negative weights 
+	- use bellman ford algorithm for negative weights
+
+
