@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    notes                                              :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/29 15:40:38 by yinzhang          #+#    #+#              #
+#    Updated: 2019/11/29 20:22:52 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Greedy algorithms
+- algorithms that you pick locally the optional next step
+
+Power sets 
+- set of all possible subsets from a set
+- the total number is equal to 2 to power of number of items
+
+Power sets are o(2^n) time and arent feasible, so we need 

@@ -1,0 +1,26 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    exercises                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yinzhang <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/29 15:42:37 by yinzhang          #+#    #+#              #
+#    Updated: 2019/11/29 20:35:34 by yinzhang         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+8.1
+	I would take the biggest box and put it into the truck and keep doing it until its done.
+
+	It would't work very well. Because the biggest items have nothing to do with the direction of deleivery.
+8.2
+	I would look at the highest points and keep picking until im at or cant fit anymore into 7 days.
+
+	Again this isnt optimal... but it is an solution.
+8.3
+	Quicksort isn't a greedy algo.
+8.4
+	BFS isnt a greedy algo.
+8.4
+	Dijkstra's is a greedy algo.
